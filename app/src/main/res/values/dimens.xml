@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_button_bye">50dp</dimen>
+    <dimen name="height_button_bye">100dp</dimen>
+    <dimen name="width_button_hello">100dp</dimen>
+    <dimen name="height_button_hello">50dp</dimen>
+
+    <!--Login Dimens-->
+    <dimen name="size_login_welcome_title">30sp</dimen>
+    <dimen name="margin_top_login_welcome_title">30dp</dimen>
+</resources>

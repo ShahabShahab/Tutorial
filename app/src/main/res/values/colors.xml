@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background_button_hello">#123456</color>
+    <color name="text_color_button_hello">#ffffff</color>
+    <color name="background_button_bye">#ffffff</color>
+    <color name="text_color_button_bye">#123456</color>
+
+    <!--Login Colors-->
+    <color name="text_color_welcome_title">#8896b3</color>
+    <color name="text_color_login_inputs">#000000</color>
+    <color name="text_color_hint_login_username">@color/text_color_welcome_title</color>
+    <color name="text_color_hint_login_password">@color/text_color_welcome_title</color>
+    <color name="tint_color_login_inputs">@color/text_color_welcome_title</color>
+</resources>
