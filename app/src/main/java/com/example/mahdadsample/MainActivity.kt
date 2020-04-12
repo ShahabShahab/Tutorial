@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDialog
+import java.lang.ref.WeakReference
 
 
 class MainActivity : AppCompatActivity() {
@@ -65,4 +66,5 @@ class MainActivity : AppCompatActivity() {
             return Intent(context, MainActivity::class.java)
         }
     }
+
 }

@@ -17,4 +17,27 @@
         <item name="android:textSize">@dimen/size_login_welcome_title</item>
     </style>
 
+    <style name="LoginOptionsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/background_login_button</item>
+    </style>
+
+    <style name="LoginCreateAccountStyle" parent="LoginOptionsStyle">
+        <item name="android:text">@string/login_create_account</item>
+    </style>
+
+    <style name="LoginForgetPasswordStyle" parent="LoginOptionsStyle">
+        <item name="android:text">@string/login_forget_password</item>
+    </style>
+
+    <style name="LoginButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/background_login_button</item>
+        <item name="android:text">@string/login_button_submit</item>
+        <item name="android:textColor">@color/text_color_login_button</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

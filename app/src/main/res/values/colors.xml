@@ -14,4 +14,6 @@
     <color name="text_color_hint_login_username">@color/text_color_welcome_title</color>
     <color name="text_color_hint_login_password">@color/text_color_welcome_title</color>
     <color name="tint_color_login_inputs">@color/text_color_welcome_title</color>
+    <color name="background_login_button">#76a6f0</color>
+    <color name="text_color_login_button">#ffffff</color>
 </resources>
