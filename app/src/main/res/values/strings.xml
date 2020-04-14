@@ -13,5 +13,6 @@
     <string name="login_button_submit">Login</string>
     <string name="login_create_account">Create Account</string>
     <string name="login_forget_password">Forget Password</string>
+    <string name="enter_your_message">Enter your message</string>
 
 </resources>
