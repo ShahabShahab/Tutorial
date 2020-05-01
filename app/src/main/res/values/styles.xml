@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -38,6 +38,18 @@
         <item name="android:text">@string/login_button_submit</item>
         <item name="android:textColor">@color/text_color_login_button</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DecreaseButton">
+        <item name="android:background">@drawable/background_decrease_button</item>
+        <item name="android:src">@drawable/ic_minus</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="IncreaseButton">
+        <item name="android:background">@drawable/background_increase_button</item>
+        <item name="android:src">@drawable/ic_add</item>
+        <item name="android:padding">15dp</item>
     </style>
 
 </resources>
